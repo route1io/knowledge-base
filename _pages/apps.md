@@ -6,42 +6,42 @@ header:
   overlay_image: /images/ZoomBG-V4-R1.jpg
 
 feature_row:
+  - image_path: images/blue.PNG
+    alt: ""
+    title: "Admin"
+    excerpt: ""
+    url: ""
+    btn_label: "Link"
   - image_path: images/red.PNG
     image_size: 100px
     alt: ""
-    title: "App documentation"
+    title: "Lift"
     excerpt: ""
     url: ""
-    btn_label: "See SOPs"
+    btn_label: "Link"
   - image_path: images/green.PNG
     alt: ""
-    title: "Marketing dictionary"
+    title: "Lift planning"
     excerpt: ""
     url: ""
-    btn_label: "See SOPs"
+    btn_label: "Link"
   - image_path: images/blue.PNG
     alt: ""
-    title: "Research papers"
+    title: "Channel"
     excerpt: ""
     url: ""
-    btn_label: "See SOPs"
+    btn_label: "Link"
   - image_path: images/red.PNG
     image_size: 100px
     alt: ""
-    title: "App documentation"
+    title: "Video pacing simulator"
     excerpt: ""
     url: ""
-    btn_label: "See SOPs"
+    btn_label: "Link"
   - image_path: images/green.PNG
     alt: ""
-    title: "Marketing dictionary"
+    title: "Channel simulator"
     excerpt: ""
     url: ""
-    btn_label: "See SOPs"
-  - image_path: images/blue.PNG
-    alt: ""
-    title: "Research papers"
-    excerpt: ""
-    url: ""
-    btn_label: "See SOPs"
+    btn_label: "Link"
 ---
