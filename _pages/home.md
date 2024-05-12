@@ -4,6 +4,7 @@ permalink: /
 title: Knowledge Base
 header:
   overlay_image: /images/ZoomBG-V1-R1.jpg
+excerpt: "Welcome to the route1.io Knowledge Base!"
 
 feature_row:
   - image_path: images/red.PNG
