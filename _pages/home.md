@@ -9,22 +9,22 @@ feature_row:
   - image_path: images/red.PNG
     image_size: 100px
     alt: ""
-    title: "Expressive and consistent syntax"
+    title: "App documentation"
     excerpt: ""
     url: ""
-    btn_label: "Learn More"
+    btn_label: "See SOPs"
   - image_path: images/green.PNG
     alt: ""
-    title: "Clear visualizations and animations"
+    title: "Marketing dictionary"
     excerpt: ""
     url: ""
-    btn_label: "Learn More"
+    btn_label: "See SOPs"
   - image_path: images/blue.PNG
     alt: "100% free"
-    title: "Completely free and open source"
+    title: "Research papers"
     excerpt: ""
-    url: "/license/"
-    btn_label: "Learn More"
+    url: ""
+    btn_label: "See SOPs"
 ---
 
 {% include feature_row %}
