@@ -2,16 +2,4 @@ main:
   - title: "Home"
     url: "/"
   - title: "Apps"
-    children:
-      - title: "Admin"
-        url: /docs/quick-start-guide/
-      - title: "Lift"
-        url: /docs/quick-start-guide/
-      - title: "Lift planning"
-        url: /docs/quick-start-guide/
-      - title: "Video pacing simulator"
-        url: /docs/structure/
-      - title: "Channel pacing simulator"
-        url: /docs/installation/
-      - title: "Channel tracking"
-        url: /docs/upgrading/
+    url: "/apps"
