@@ -15,7 +15,7 @@ feature_row:
     url: "https://route1io.shinyapps.io/admin/"
     btn_label: "Link"
   - image_path: images/application logos-15.png
-    image_size: 100px
+    image_size: 50px
     alt: ""
     title: "Lift"
     excerpt: "Live lift test tracking platform"
