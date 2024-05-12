@@ -4,6 +4,8 @@ permalink: /apps
 title: Apps
 header:
   overlay_image: /images/ZoomBG-V4-R1.jpg
+excerpt: "This page contains links to our various available apps"
+
 
 feature_row:
   - image_path: images/application logos-15.png
