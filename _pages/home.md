@@ -20,7 +20,7 @@ feature_row:
     url: ""
     btn_label: "See SOPs"
   - image_path: images/blue.PNG
-    alt: "100% free"
+    alt: ""
     title: "Research papers"
     excerpt: ""
     url: ""
