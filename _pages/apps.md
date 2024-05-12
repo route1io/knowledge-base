@@ -45,3 +45,5 @@ feature_row:
     url: ""
     btn_label: "Link"
 ---
+
+{% include feature_row %}
