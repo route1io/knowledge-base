@@ -35,5 +35,3 @@ feature_row:
 {% for post in site.posts limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
-
-[See all blog posts...]({{site.url}}{{site.baseurl}}/blog/){: .btn .btn--info}
