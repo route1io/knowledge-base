@@ -23,8 +23,8 @@ logo: "/images/route1io.png"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   route1.io Knowledge Base internal Wiki
-baseurl: "knowledge-base" # the subpath of your site, e.g. /blog
-url: "https://route1io.github.io/knowledge-base/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sop.route1.io//" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  route1.io
 
 # Build settings
