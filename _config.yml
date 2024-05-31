@@ -44,6 +44,17 @@ include: ["_pages"]
 
 search: true
 
+defaults:
+  - scope: 
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      toc: true
+      toc_label: "Table of Contents"
+      toc_sticky: true
+
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
