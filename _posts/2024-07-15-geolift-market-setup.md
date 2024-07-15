@@ -29,7 +29,7 @@ In implementing this logic, there are some considerations and watch-outs that we
 
 If you are planning a test that is attempting to put 20% of a KPI into each test cell, and your pre-specified test-group has much more than 20%, the pre-specified market allocation will persist and override the 20% value. In this case you could end up with unequal sized test cells.
 
-This may or may not be prolematic, and it may or may not leave you with enough other markets to fully design the test
+This may or may not be problematic, and it may or may not leave you with enough other markets to fully design the test
 
 ## Running Multi-Cell Test processes
 
