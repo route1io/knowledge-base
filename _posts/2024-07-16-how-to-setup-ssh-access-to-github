@@ -1,0 +1,48 @@
+---
+title: "Setting up SSH access for GitHub"
+date: 2024-07-16 17:30:00 -0400
+---
+
+# Setting up SSH access for GitHub
+
+When working with private repositories on GitHub, establishing a secure and efficient way to access code is crucial. SSH (Secure Shell) provides a robust method for authenticating to GitHub servers from the command line. In this guide, we’ll walk you through the process of setting up SSH access for GitHub which enables you to clone, pull, and push to your repositories (both public and private) securely.
+
+## Check for existing SSH keys
+Before generating a new SSH key, it's a good idea to check if you already have any SSH keys on your machine. Open your terminal and run:
+
+```bash
+ls -la ~/.ssh
+```
+
+Look for files named either _id_rsa.pub_ or _id_dsa.pub_. If you find an existing key pair, consider using it. Otherwise, move on to creating a new one.
+
+## Generate a new SSH key
+
+To generate a new SSH key, enter the following command in your terminal. Be sure to replace your_email@example.com with your email:
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+Accept the default file location when prompted to "Enter a file in which to save the key." Optionally, you can secure your key with a passphrase.
+
+## Add your SSH key to your GitHub account
+
+1. Copy the SSH key to your clipboard
+2. Visit your GitHub account and navigate to Settings.
+3. Under the user settings sidebar, click SSH and GPG keys.
+4. Click New SSH key or Add SSH key, provide a descriptive title for the key, and paste your key into the "Key" field.
+5. Click Add SSH key and, if prompted, confirm your GitHub password.
+
+## Test the SSH connection
+
+Ensure your setup is correct by testing your SSH connection to GitHub:
+
+```bash
+ssh -T git@github.com
+```
+
+If successful, you'll receive a message saying, "Hi [your_username]! You've successfully authenticated, but GitHub does not provide shell access."
+
+## Additional resources
+- [GitHub docs for setting up SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
