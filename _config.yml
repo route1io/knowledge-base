@@ -54,6 +54,11 @@ defaults:
       toc: true
       toc_label: "Table of Contents"
       toc_sticky: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
 
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
