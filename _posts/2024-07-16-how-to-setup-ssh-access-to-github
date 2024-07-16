@@ -29,10 +29,10 @@ Accept the default file location when prompted to "Enter a file in which to save
 ## Add your SSH key to your GitHub account
 
 1. Copy the SSH key to your clipboard
-2. Visit your GitHub account and navigate to Settings.
-3. Under the user settings sidebar, click SSH and GPG keys.
-4. Click New SSH key or Add SSH key, provide a descriptive title for the key, and paste your key into the "Key" field.
-5. Click Add SSH key and, if prompted, confirm your GitHub password.
+2. Visit your GitHub account and navigate to **Settings**.
+3. Under the user settings sidebar, click **SSH and GPG keys**.
+4. Click **New SSH key** or **Add SSH key**, provide a descriptive title for the key, and paste your key into the "Key" field.
+5. Click **Add SSH key** and, if prompted, confirm your GitHub password.
 
 ## Test the SSH connection
 
