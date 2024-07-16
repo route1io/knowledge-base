@@ -3,8 +3,6 @@ title: "Setting up SSH access for GitHub"
 date: 2024-07-16 16:00:00 -0400
 ---
 
-# Setting up SSH access for GitHub
-
 When working with private repositories on GitHub, establishing a secure and efficient way to access code is crucial. SSH (Secure Shell) provides a robust method for authenticating to GitHub servers from the command line. In this guide, we’ll walk you through the process of setting up SSH access for GitHub which enables you to clone, pull, and push to your repositories (both public and private) securely.
 
 ## Check for existing SSH keys
