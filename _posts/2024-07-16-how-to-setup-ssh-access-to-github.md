@@ -1,6 +1,6 @@
 ---
 title: "Setting up SSH access for GitHub"
-date: 2024-07-15 16:00:00 -0400
+date: 2024-07-16 16:00:00 -0400
 ---
 
 # Setting up SSH access for GitHub
