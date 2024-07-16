@@ -50,7 +50,7 @@ mean(my_vector)
 
 # Mathematical Expressions
 
-Mathematical expressinos can be imbedded using LaTeX syntax
+Mathematical expressions can be imbedded using LaTeX syntax
 
 $$ x(\theta) = (R - r)cos\theta + d cos(\frac{R - r}{r}\theta) $$
 $$ y(\theta) = (R - r)sin\theta - d sin(\frac{R - r}{r}\theta) $$
