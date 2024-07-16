@@ -3,3 +3,5 @@ main:
     url: "/"
   - title: "Apps"
     url: "/apps"
+  - title: "Articles"
+    url: "/articles"
