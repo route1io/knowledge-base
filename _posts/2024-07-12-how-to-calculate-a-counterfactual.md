@@ -53,6 +53,16 @@ This should give the below output.
 
 # Advanced Cases
 
+## Counterfactual of growth rates are invalid
+
+In some cases it may be advantageous to look at and compare year on year growth rates in different markets. To make this comparison fairly, you should adjust the control groups to scale up to the counterfactual in the period before the prior year data commences and then apply the relative growth rate comparisons.
+
+If you take the year-on-year growth rate of the test and control groups, and then try to apply a counterfactual calculation to the control groups, the incorrect values are calculated. The issue here stems from the growth rates in the pre-period having the potential to be very close to 0. If the average growth rate in the test markets is 11 units/day and the growth rate in the control markets is 2 units per day, then the control markets' growth would be scaled up 5.5 times, making comparisons invalid.
+
+The below shows the potential illustration if you apply a counterfactual after the growth rate has been calculated
+
+![Growth Counterfactual]({{site.url}}{{site.baseurl}}/images/lift/growth_counterfactual.jpg)
+
 ## Synthetic Control Groups and counterfactuals (further reading & development required)
 
 Some more recent research in this area is listed below, where we can draw insipiration for retrospective identification of counterfactual/control markets and/or investigate further can be found [here](https://www.researchgate.net/publication/329945694_Synthetic_Difference_in_Differences_)
