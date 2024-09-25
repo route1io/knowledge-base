@@ -1,9 +1,7 @@
 ---
-title: "Video Plan Simulation"
+title: "Setting up an email data feed with Power Automate"
 date: 2024-09-25 07:48:00 -0400
 ---
-
-# Setting up an email data feed with Power Automate
 
 Power Automate can streamline workflows by automatically handling email attachments and saving them to OneDrive. In this guide, we'll walk through a process that extracts CSV files from incoming emails, creates a timestamped folder, and stores the files within a SharePoint Site’s associated OneDrive
 
