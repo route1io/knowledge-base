@@ -52,3 +52,6 @@ Now let's jump in and create our Power Automate workflow in the platform
 9. Save the flow:
   - Once you’ve completed these steps, click "Save"
   - Test the flow by sending an email with attachments. The attachments will now be moved into a single folder based on the static timestamp from when the flow was triggered
+
+Example of a complete workflow:
+![Completed Power Automate workflow]({{site.url}}{{site.baseurl}}/images/power_automate/full_flow.PNG)
