@@ -3,15 +3,15 @@ title: "Setting up an email data feed with Power Automate"
 date: 2024-09-25 07:48:00 -0400
 ---
 
-Power Automate can streamline workflows by automatically handling email attachments and saving them to OneDrive. In this guide, we'll walk through a process that extracts CSV files from incoming emails, creates a timestamped folder, and stores the files within a SharePoint Site’s associated OneDrive
+Power Automate can streamline workflows by automatically handling email attachments and saving them to OneDrive
+
+In this guide, we'll walk through a process that extracts CSV files from incoming emails, creates a timestamped folder, and stores the files within a SharePoint Site’s associated OneDrive
 
 ## What is Power Automate?
 
 [Power Automate](https://www.microsoft.com/en-us/power-platform/products/power-automate) is a cloud-based tool from Microsoft that automates workflows between apps and services, enabling us to sync files, receive notifications, and manage data without manual intervention
 
 As part of the Microsoft 365 ecosystem, it integrates seamlessly with tools like OneDrive, SharePoint, Outlook, and Excel
-
-In this guide, we’ll leverage Power Automate to streamline the process of moving CSV attachments from incoming emails to OneDrive
 
 ## Step-by-step: Creating a Power Automate workflow
 
