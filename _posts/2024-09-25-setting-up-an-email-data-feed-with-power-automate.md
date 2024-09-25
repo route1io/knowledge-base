@@ -35,12 +35,12 @@ Now let's jump in and create our Power Automate workflow in the platform
   - Create a variable named "timestamp"
   - Set the *"Type"* to *"String"*, and under *"Value"*, use the *"Expression"* option (lightning bolt icon) to generate a dynamic timestamp:
   - Use the expression `utcNow()` to capture the current date and time
-  - This ensures the timestamp is generated once and can be reused consistently throughout the workflow.
+  - This ensures the timestamp is generated once and can be reused consistently throughout the workflow
 6. Add an *"Apply to each"* loop:
   - After initializing the variables, click *"New Step"* and search for *"Apply to each"*
   - Select *"Apply to each"*, and in the *"Select an output" *field, select *"Attachments"* from the dynamic content pane (this will loop over all attachments in the incoming email)
 7. Create a timestamped folder in OneDrive:
-  - Inside the *"Apply to each"* loop, click *"New Step"* and search for *"Create new folder 2"*.
+  - Inside the *"Apply to each"* loop, click *"New Step"* and search for *"Create new folder 2"*
   - Select the OneDrive associated with your target SharePoint Site
   - Set the folder name to the `timestamp` variable, ensuring it persists throughout the flow for all attachments
   - (optional) Specify a subfolder in *"Folder Path"* to nest it `somewhere/else/{timestamp}`
