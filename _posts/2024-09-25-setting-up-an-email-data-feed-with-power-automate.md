@@ -40,7 +40,7 @@ Now let's jump in and create our Power Automate workflow in the platform
 ![Example showing how to create the utcNow timestamp]({{site.url}}{{site.baseurl}}/images/power_automate/timestamp.PNG)
 6. Add an *"Apply to each"* loop:
   - After initializing the variables, click *"New Step"* and search for *"Apply to each"*
-  - Select *"Apply to each"*, and in the *"Select an output" *field, select *"Attachments"* from the dynamic content pane (this will loop over all attachments in the incoming email)
+  - Select *"Apply to each"*, and in the *"Select an output"* field, select *"Attachments"* from the dynamic content pane (this will loop over all attachments in the incoming email)
 ![Example showing attachments loop]({{site.url}}{{site.baseurl}}/images/power_automate/attachments_loop.PNG)
 7. Create a timestamped folder in OneDrive:
   - Inside the *"Apply to each"* loop, click *"New Step"* and search for *"Create new folder 2"*
