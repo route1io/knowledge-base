@@ -55,13 +55,17 @@ Now let's jump in and create our Power Automate workflow in the platform
 
 - Inside the *"Apply to each"* loop, click *"New Step"* and search for *"Create new folder 2"*.
 - Select the OneDrive associated with your target SharePoint Site
-- Set the folder name to a dynamic timestamp using the "Expression" option by clicking into *"Folder Path"* and selecting the little `f(x)` button:
-  - For the folder name, search for Expression *utcNow()* to generate a unique folder based on the current date and time
-  - (optional) Specify a subfolder in *"Folder Path"* to nest it `somewhere/else/utcNow()`
+- Set the folder name to the `timestamp` variable, ensuring it persists throughout the flow for all attachments
+- (optional) Specify a subfolder in *"Folder Path"* to nest it `somewhere/else/{timestamp}`
 
 8. Move email attachments to the new folder:
 
 - After creating the folder, click *"Add an Action"* and search for *"Create file 2"*
 - Point it to the folder you just created in OneDrive
 - For the file name, select *"Attachment Name"* from the dynamic content, and for the file content, choose *"Attachment Content"*
-- This will save each attachment into the newly created timestamped folder.
+- This will save each attachment into the newly created timestamped folder
+
+9. Save the flow:
+
+- Once you’ve completed these steps, click "Save"
+- Test the flow by sending an email with attachments. The attachments will now be moved into a single folder based on the static timestamp from when the flow was triggered
