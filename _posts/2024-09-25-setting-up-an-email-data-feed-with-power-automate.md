@@ -29,7 +29,8 @@ Now let's jump in and create our Power Automate workflow in the platform
 4. Set email filter conditions (optional):
   - Once the trigger is added, you can narrow down the emails that trigger this flow:
     - In the trigger step, you can add filters such as *Inbox*, *From* address, *Subject* line, specific *Folder*, or *Has Attachments* to refine the emails that the workflow will act upon
-  - For instance, you might specify a *Subject Filter* containing "SA360 export" to only trigger on emails that have "SA360 export" in the subject line
+  - For instance, you might specify a *Folder* to only trigger on emails that land in some specific folder
+![Sample email filters for a specific folder]({{site.url}}{{site.baseurl}}/images/power_automate/specific_folder.PNG)
 5. Initialize "timestamp" variable:
   - Click *"New Step"* and search for *"Initialize variable"*
   - Create a variable named "timestamp"
