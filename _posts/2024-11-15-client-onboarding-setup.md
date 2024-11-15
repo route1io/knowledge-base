@@ -58,6 +58,10 @@ To set the brand colors, please build a `clientname.r` file with the below conte
 
 Please ensure that more than 100 colors are available, this can be ensured by making use of the `rep()` command to cycle through color options
 
+A range of colors should be used that will deliver clear distinction between each series in a chart. If necessary, please use chatgpt or equivalent with a query such as "given these existing brand colors please add 4 more colors that would fit the colors palette, and include orange, brown, purple and green options".
+
+Care should be taken to order the colors in a visually distinct way. Yellow should be deprioritized on the list and used with caution as it often does not display well when presented on screens or in charts with a white background
+
 {% highlight r %}
 
 colors_custom=rep(c("#ce2222", "#22b5ce", "#22ceb5", "#ceb522", "#b522ce", "#444444", "#ff9900", "#ff0099", "#006633", "#660033"),100)
