@@ -12,7 +12,7 @@ The recursive approach involves sequentially fitting the same regression model o
 
 The code contains 3 main functions, these are (1) recursive model Fitting (recursive.apply), (2) generating the recursive table (get.recursive.table), and (3) plotting the results (get.recursive.chart).
 
-The Figure below illustrates the weekly evolution of 'Variable X' over time, with the Y-axis representing its $$B$$ coefficient. In practice, this could represent the effect of social or search spend.  
+The Figure below illustrates the weekly evolution of 'Variable X' over time, with the Y-axis representing its $$B$$ coefficient. 
 
 - Green Line (with dots): Represents the $$B$$ coefficient over time.
 - Orange Line (with dots): Represents the value of the $$B$$ coefficient at the most recent week.
