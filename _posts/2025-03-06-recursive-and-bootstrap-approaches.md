@@ -18,9 +18,11 @@ The Figure below illustrates the weekly evolution of 'Variable X' over time, wit
 - Orange Line (with dots): Represents the value of the B coefficient at the most recent week.
 - Blue Dashed Lines (above and below): These lines represent the 90% confidence intervals.
 
-![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive.png)
+![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive.jpeg)
 
+When to use the recursive approach: When we suspect there are potential points in time where the underlying relationship between variables might have shifted. Good for detecting structural breaks or trends in coefficients over time.
 
+## Bootstrap
 
 # Headers
 
@@ -53,7 +55,7 @@ We can link to websites like [this]((https://sop.route1.io/))
 
 And we can also link images like so:
 
-![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive)
+![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive.jpeg)
 
 The image must first be copied into the *images* directory and then referenced by filepath
 
