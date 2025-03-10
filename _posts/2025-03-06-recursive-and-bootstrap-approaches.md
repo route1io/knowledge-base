@@ -12,7 +12,13 @@ The recursive approach involves sequentially fitting the same regression model o
 
 The code contains 3 main functions, these are (1) recursive model Fitting (recursive.apply), (2) generating the recursive table (get.recursive.table), and (3) plotting the results (get.recursive.chart).
 
+The Figure below illustrates the weekly evolution of 'Variable X' over time, with the Y-axis representing its B coefficient. In practice, this could represent the effect of social or search spend.  
 
+Green Line (with dots): Represents the B coefficient over time.
+Orange Line (with dots): Represents the value of the B coefficient at the most recent week.
+Blue Dashed Lines (above and below): These lines represent the 90% confidence intervals.
+
+![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive)
 
 
 
@@ -47,11 +53,11 @@ We can link to websites like [this]((https://sop.route1.io/))
 
 And we can also link images like so:
 
-![Detective Pikachu frowning]({{site.url}}{{site.baseurl}}/images/detectivepikachu.jpg)
+![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive)
 
 The image must first be copied into the *images* directory and then referenced by filepath
 
-# Code snippets
+# Code snippets 
 
 {% highlight r %}
 # Simple R code for mean calculation
