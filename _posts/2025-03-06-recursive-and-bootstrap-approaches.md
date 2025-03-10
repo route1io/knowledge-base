@@ -14,11 +14,11 @@ The code contains 3 main functions, these are (1) recursive model Fitting (recur
 
 The Figure below illustrates the weekly evolution of 'Variable X' over time, with the Y-axis representing its B coefficient. In practice, this could represent the effect of social or search spend.  
 
-Green Line (with dots): Represents the B coefficient over time.
-Orange Line (with dots): Represents the value of the B coefficient at the most recent week.
-Blue Dashed Lines (above and below): These lines represent the 90% confidence intervals.
+- Green Line (with dots): Represents the B coefficient over time.
+- Orange Line (with dots): Represents the value of the B coefficient at the most recent week.
+- Blue Dashed Lines (above and below): These lines represent the 90% confidence intervals.
 
-![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive)
+![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive.png)
 
 
 
