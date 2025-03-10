@@ -18,14 +18,14 @@ The Figure below illustrates the weekly evolution of 'Variable X' over time, wit
 - Orange Line (with dots): Represents the value of the $$B$$ coefficient at the most recent week.
 - Blue Dashed Lines (above and below): These lines represent the 90% confidence intervals.
 
-![recursive]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive.jpeg)
+![recursive image]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/recursive.jpeg)
 
 When to use the recursive approach: When we suspect there are potential points in time where the underlying relationship between variables might have shifted. Good for detecting structural breaks or trends in coefficients over time.
 
 ## Bootstrap
 The bootstrapping approach is a resampling technique that involves repeatedly sampling from the data with replacement and fitting the same regression model to each resample. This provides insights into the stability of the model estimates across the varied dataset samples. By examining the variability in the coefficients obtained from the output during the bootstrapping procedure, it is demonstrated how changes in the input dataset, such as sample size, can lead to variability in the model output. This helps to provide more oversight into the strength and consistency of the associations between the outcome and the predictors thereof. This can be particularly helpful in identifying false or weaker associations that are not regularly observed across identical models by using slightly different subsamples of data as input. If an association is consistently observed across various models with different data subsets, it adds more weight to its validity. This approach can help identify which associations are robust and which might be spurious.
 
-![bootstrap]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/bootstrap.jpeg)
+![bootstrap image]({{site.url}}{{site.baseurl}}/images/econometrics/model_tests/bootstrap.jpeg)
 
 These figures above indicate how changes in the input dataset lead to variability in the model output. Greater changes in the input data, indicated by smaller sample sizes, lead to increased variability. These findings align with the idea that smaller sample sizes typically result in less precise estimates, thereby affecting the reliability of t-statistics/p-values. Even within a fixed sample size, there will still be some variability in the exact estimate of the $$B$$ coefficient, which is expected due to the nature of resampling. This variability reflects the inherent uncertainty in the estimate, and it is captured by the range of values within a confidence interval. A 95% confidence interval (CI) for the $$B$$ coefficient is designed to encompass this variability.
 
