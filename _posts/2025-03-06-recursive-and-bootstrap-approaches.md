@@ -31,7 +31,7 @@ These figures above indicate how changes in the input dataset lead to variabilit
 
 The 95% CI of the model estimates are not directly shown in the accompanying figures. Although, an underlying distribution can be assumed within a sample. The 95% CI interval is therefore the range in which we would expect the true parameter to lie in 95% of repeated samples, given the same underlying data-generating process.
 
-There are two main components to the code: estimating model coefficients and contributions through resampling. The {% highlight r %}bootstrap.sample.coefs.table{% endhighlight %} function runs multiple bootstrap iterations to estimate model coefficients, which are then visualized using bootstrap.coef.chart. Similarly, bootstrap.sample.contributions.table performs bootstrap resampling to compute variable contributions and bootstrap.cont.chart visualizes their distribution.
+There are two main components to the code: estimating model coefficients and contributions through resampling. The bootstrap.sample.coefs.table function runs multiple bootstrap iterations to estimate model coefficients, which are then visualized using bootstrap.coef.chart. Similarly, bootstrap.sample.contributions.table performs bootstrap resampling to compute variable contributions and bootstrap.cont.chart visualizes their distribution.
 
 When to use the bootstrapping approach: When we want to assess the uncertainty of an estimate. 
 
