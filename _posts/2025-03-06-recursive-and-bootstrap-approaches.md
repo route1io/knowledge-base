@@ -8,7 +8,7 @@ The recursive and bootstrap approaches are two model tests with the econometrics
 The recursive approach provides a temporal look at the model stability, while the bootstrap approach provides a distributional assessment of coefficient variability and robustness through resampling. These techniques help evaluate a model's performance under different data conditions.
 
 ## Recursive
-The recursive approach involves sequentially fitting the same regression model over time, and updating the sample by adding new observations. This is done by fitting the model using data up to time t. The add the next observation (t+1) and refit the model. This helps track how coefficients evolve over time, which is useful for identifying model instability. Currently, the recursive approach focuses only on coefficient tracking. 
+The recursive approach involves sequentially fitting the same regression model over time, and updating the sample by adding new observations. This is done by fitting the model using data up to time $$t$$. The add the next observation $$(t+1)$$ and refit the model. This helps track how coefficients evolve over time, which is useful for identifying model instability. Currently, the recursive approach focuses only on coefficient tracking. 
 
 The code contains 3 main functions, these are (1) recursive model Fitting (recursive.apply), (2) generating the recursive table (get.recursive.table), and (3) plotting the results (get.recursive.chart).
 
