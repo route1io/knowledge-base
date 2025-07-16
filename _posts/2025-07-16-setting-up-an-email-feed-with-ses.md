@@ -1,6 +1,6 @@
 ---
 title: "Setting up a scalable email data feed with SES and Lambda"
-date: 2025-07-16 22:48:00 -0400
+date: 2025-07-16 08:48:00 -0400
 ---
 
 # Building a Serverless Email Ingestion Pipeline with AWS SES, Lambda, and S3
