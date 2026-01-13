@@ -1,6 +1,6 @@
 ---
 title: "Heirarchical Bayesian Analysis"
-date: 2026-01-13 07:48:00 -0400
+date: 2026-01-12 07:48:00 -0400
 ---
 
 
@@ -66,6 +66,7 @@ The columns used in this data set should be:
 1. Date Column: a column containing the date for a given observation
 2. Hierarchy Definition Columns (upto 4): upto 4 heirarchical definition columns can be added into the analysis
 3. Metric Values: additional columns should be added to include Cost, Impressions, Clicks, Conversions (for example, platform tracked values) plus any additional metrics that may be useful for data exploration
+
 ####  response.csv
 
 This is the file containing the results from a HB analysis for import into the tool. It is a combination of variables.csv from the econometric model analysis and the output from a HB analysis.
