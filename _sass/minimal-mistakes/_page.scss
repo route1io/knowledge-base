@@ -15,7 +15,7 @@
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: $max-width;
+    max-width: 100%;
   }
 }
 
@@ -207,7 +207,7 @@ body {
       padding-right: 1em;
 
       @include breakpoint($x-large) {
-        max-width: $x-large;
+        max-width: 100%;
       }
     }
 
@@ -220,7 +220,7 @@ body {
     }
 
     .page__lead {
-      max-width: $medium;
+      max-width: 100%;
     }
 
     .page__title {
