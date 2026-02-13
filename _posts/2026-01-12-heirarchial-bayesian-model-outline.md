@@ -96,6 +96,8 @@ The response.csv file needs to be structured so that we can see all direct or dr
 
 ![s3 location: route1io.econometrics]({{site.url}}{{site.baseurl}}/images/econometrics/heirarchical_bayesian/response_csv.png)
 
+The column headers and options of the file should match the config.json file (see below). The KPI column in response.csv should have values that match the client-specific financial return model
+
 #### config.json
 
 this file contains the configuration settings for the tool and calculations, nested as follows
